@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D777C1213A5AA9005E4DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */; };
+		04D777C3213A5AA9005E4DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777C2213A5AA9005E4DB2 /* ViewController.swift */; };
+		04D777C6213A5AA9005E4DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C4213A5AA9005E4DB2 /* Main.storyboard */; };
+		04D777C8213A5AAB005E4DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C7213A5AAB005E4DB2 /* Assets.xcassets */; };
+		04D777CB213A5AAB005E4DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C9213A5AAB005E4DB2 /* LaunchScreen.storyboard */; };
+		04D777D6213A5AAB005E4DB2 /* picmicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777D5213A5AAB005E4DB2 /* picmicTests.swift */; };
+		04D777E1213A5AAB005E4DB2 /* picmicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777E0213A5AAB005E4DB2 /* picmicUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04D777D2213A5AAB005E4DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D777B5213A5AA9005E4DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D777BC213A5AA9005E4DB2;
+			remoteInfo = picmic;
+		};
+		04D777DD213A5AAB005E4DB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04D777B5213A5AA9005E4DB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04D777BC213A5AA9005E4DB2;
+			remoteInfo = picmic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04D777BD213A5AA9005E4DB2 /* picmic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picmic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04D777C2213A5AA9005E4DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D777C5213A5AA9005E4DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04D777C7213A5AAB005E4DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04D777CA213A5AAB005E4DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04D777CC213A5AAB005E4DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D777D1213A5AAB005E4DB2 /* picmicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picmicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D777D5213A5AAB005E4DB2 /* picmicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picmicTests.swift; sourceTree = "<group>"; };
+		04D777D7213A5AAB005E4DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D777DC213A5AAB005E4DB2 /* picmicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picmicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D777E0213A5AAB005E4DB2 /* picmicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picmicUITests.swift; sourceTree = "<group>"; };
+		04D777E2213A5AAB005E4DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04D777BA213A5AA9005E4DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777CE213A5AAB005E4DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777D9213A5AAB005E4DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04D777B4213A5AA9005E4DB2 = {
+			isa = PBXGroup;
+			children = (
+				04D777BF213A5AA9005E4DB2 /* picmic */,
+				04D777D4213A5AAB005E4DB2 /* picmicTests */,
+				04D777DF213A5AAB005E4DB2 /* picmicUITests */,
+				04D777BE213A5AA9005E4DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04D777BE213A5AA9005E4DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04D777BD213A5AA9005E4DB2 /* picmic.app */,
+				04D777D1213A5AAB005E4DB2 /* picmicTests.xctest */,
+				04D777DC213A5AAB005E4DB2 /* picmicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04D777BF213A5AA9005E4DB2 /* picmic */ = {
+			isa = PBXGroup;
+			children = (
+				04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */,
+				04D777C2213A5AA9005E4DB2 /* ViewController.swift */,
+				04D777C4213A5AA9005E4DB2 /* Main.storyboard */,
+				04D777C7213A5AAB005E4DB2 /* Assets.xcassets */,
+				04D777C9213A5AAB005E4DB2 /* LaunchScreen.storyboard */,
+				04D777CC213A5AAB005E4DB2 /* Info.plist */,
+			);
+			path = picmic;
+			sourceTree = "<group>";
+		};
+		04D777D4213A5AAB005E4DB2 /* picmicTests */ = {
+			isa = PBXGroup;
+			children = (
+				04D777D5213A5AAB005E4DB2 /* picmicTests.swift */,
+				04D777D7213A5AAB005E4DB2 /* Info.plist */,
+			);
+			path = picmicTests;
+			sourceTree = "<group>";
+		};
+		04D777DF213A5AAB005E4DB2 /* picmicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				04D777E0213A5AAB005E4DB2 /* picmicUITests.swift */,
+				04D777E2213A5AAB005E4DB2 /* Info.plist */,
+			);
+			path = picmicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04D777BC213A5AA9005E4DB2 /* picmic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D777E5213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmic" */;
+			buildPhases = (
+				04D777B9213A5AA9005E4DB2 /* Sources */,
+				04D777BA213A5AA9005E4DB2 /* Frameworks */,
+				04D777BB213A5AA9005E4DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = picmic;
+			productName = picmic;
+			productReference = 04D777BD213A5AA9005E4DB2 /* picmic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04D777D0213A5AAB005E4DB2 /* picmicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D777E8213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmicTests" */;
+			buildPhases = (
+				04D777CD213A5AAB005E4DB2 /* Sources */,
+				04D777CE213A5AAB005E4DB2 /* Frameworks */,
+				04D777CF213A5AAB005E4DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D777D3213A5AAB005E4DB2 /* PBXTargetDependency */,
+			);
+			name = picmicTests;
+			productName = picmicTests;
+			productReference = 04D777D1213A5AAB005E4DB2 /* picmicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04D777DB213A5AAB005E4DB2 /* picmicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04D777EB213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmicUITests" */;
+			buildPhases = (
+				04D777D8213A5AAB005E4DB2 /* Sources */,
+				04D777D9213A5AAB005E4DB2 /* Frameworks */,
+				04D777DA213A5AAB005E4DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04D777DE213A5AAB005E4DB2 /* PBXTargetDependency */,
+			);
+			name = picmicUITests;
+			productName = picmicUITests;
+			productReference = 04D777DC213A5AAB005E4DB2 /* picmicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04D777B5213A5AA9005E4DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04D777BC213A5AA9005E4DB2 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					04D777D0213A5AAB005E4DB2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04D777BC213A5AA9005E4DB2;
+					};
+					04D777DB213A5AAB005E4DB2 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 04D777BC213A5AA9005E4DB2;
+					};
+				};
+			};
+			buildConfigurationList = 04D777B8213A5AA9005E4DB2 /* Build configuration list for PBXProject "picmic" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04D777B4213A5AA9005E4DB2;
+			productRefGroup = 04D777BE213A5AA9005E4DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04D777BC213A5AA9005E4DB2 /* picmic */,
+				04D777D0213A5AAB005E4DB2 /* picmicTests */,
+				04D777DB213A5AAB005E4DB2 /* picmicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04D777BB213A5AA9005E4DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D777CB213A5AAB005E4DB2 /* LaunchScreen.storyboard in Resources */,
+				04D777C8213A5AAB005E4DB2 /* Assets.xcassets in Resources */,
+				04D777C6213A5AA9005E4DB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777CF213A5AAB005E4DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777DA213A5AAB005E4DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04D777B9213A5AA9005E4DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D777C3213A5AA9005E4DB2 /* ViewController.swift in Sources */,
+				04D777C1213A5AA9005E4DB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777CD213A5AAB005E4DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D777D6213A5AAB005E4DB2 /* picmicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04D777D8213A5AAB005E4DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D777E1213A5AAB005E4DB2 /* picmicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04D777D3213A5AAB005E4DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D777BC213A5AA9005E4DB2 /* picmic */;
+			targetProxy = 04D777D2213A5AAB005E4DB2 /* PBXContainerItemProxy */;
+		};
+		04D777DE213A5AAB005E4DB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04D777BC213A5AA9005E4DB2 /* picmic */;
+			targetProxy = 04D777DD213A5AAB005E4DB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04D777C4213A5AA9005E4DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D777C5213A5AA9005E4DB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04D777C9213A5AAB005E4DB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D777CA213A5AAB005E4DB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04D777E3213A5AAB005E4DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04D777E4213A5AAB005E4DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04D777E6213A5AAB005E4DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04D777E7213A5AAB005E4DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		04D777E9213A5AAB005E4DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picmic.app/picmic";
+			};
+			name = Debug;
+		};
+		04D777EA213A5AAB005E4DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picmic.app/picmic";
+			};
+			name = Release;
+		};
+		04D777EC213A5AAB005E4DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picmic;
+			};
+			name = Debug;
+		};
+		04D777ED213A5AAB005E4DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				INFOPLIST_FILE = picmicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = picmic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D777B8213A5AA9005E4DB2 /* Build configuration list for PBXProject "picmic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D777E3213A5AAB005E4DB2 /* Debug */,
+				04D777E4213A5AAB005E4DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D777E5213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D777E6213A5AAB005E4DB2 /* Debug */,
+				04D777E7213A5AAB005E4DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D777E8213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D777E9213A5AAB005E4DB2 /* Debug */,
+				04D777EA213A5AAB005E4DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04D777EB213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D777EC213A5AAB005E4DB2 /* Debug */,
+				04D777ED213A5AAB005E4DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04D777B5213A5AA9005E4DB2 /* Project object */;
+}
