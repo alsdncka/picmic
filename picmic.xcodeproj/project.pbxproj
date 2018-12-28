@@ -7,13 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0422A098213B088500A8A1FB /* userST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A097213B088500A8A1FB /* userST.swift */; };
+		0422A09A213C059600A8A1FB /* wwurl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A099213C059600A8A1FB /* wwurl.swift */; };
+		0422A09C213C796C00A8A1FB /* wwvalidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A09B213C796C00A8A1FB /* wwvalidation.swift */; };
+		0422A09E213C82C400A8A1FB /* wwutil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A09D213C82C400A8A1FB /* wwutil.swift */; };
+		0422A0A5213CA4CB00A8A1FB /* pageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0A4213CA4CB00A8A1FB /* pageController.swift */; };
+		0422A0A7213D69EB00A8A1FB /* photoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0A6213D69EB00A8A1FB /* photoViewController.swift */; };
+		0422A0A9213EAC4300A8A1FB /* wwindicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0A8213EAC4300A8A1FB /* wwindicator.swift */; };
+		0422A0AB213EC00B00A8A1FB /* rootController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0AA213EC00B00A8A1FB /* rootController.swift */; };
+		0422A0AD213EDD9200A8A1FB /* FeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0AC213EDD9200A8A1FB /* FeeViewController.swift */; };
+		0422A0AF213EDDBE00A8A1FB /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0AE213EDDBE00A8A1FB /* LibraryViewController.swift */; };
+		0422A0B121401FBD00A8A1FB /* sub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422A0B021401FBD00A8A1FB /* sub.swift */; };
+		04280853214B307C00A54649 /* feedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04280852214B307C00A54649 /* feedViewController.xib */; };
+		04280857214B7E1D00A54649 /* feedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04280856214B7E1D00A54649 /* feedController.swift */; };
+		04280868214CCA5600A54649 /* feedTableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04280867214CCA5600A54649 /* feedTableController.swift */; };
+		04296FB62157ABE3002A8CDE /* myPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04296FB52157ABE3002A8CDE /* myPage.swift */; };
+		0429942421BD378000CC8A32 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429942321BD378000CC8A32 /* HistoryCell.swift */; };
+		0429942621BD379800CC8A32 /* HistoryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0429942521BD379800CC8A32 /* HistoryHeader.swift */; };
+		042EFF0021BD2B0A0015CABE /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042EFEFF21BD2B0A0015CABE /* HistoryController.swift */; };
+		043B75AA21B6E47600F14015 /* wwUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043B75A921B6E47600F14015 /* wwUser.swift */; };
+		0445158F217783FC00E84F8E /* CoveredByYourGrace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0445158E217783FB00E84F8E /* CoveredByYourGrace.ttf */; };
+		044515902177844600E84F8E /* CoveredByYourGrace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0445158E217783FB00E84F8E /* CoveredByYourGrace.ttf */; };
+		044515912177844600E84F8E /* CoveredByYourGrace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0445158E217783FB00E84F8E /* CoveredByYourGrace.ttf */; };
+		04451598217BB63E00E84F8E /* NotoSansKR-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04451593217BB5FB00E84F8E /* NotoSansKR-Light.otf */; };
+		04451599217BB75900E84F8E /* NotoSansKR-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04451597217BB5FC00E84F8E /* NotoSansKR-Bold.otf */; };
+		0445159A217BB75B00E84F8E /* NotoSansKR-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04451592217BB5FB00E84F8E /* NotoSansKR-Black.otf */; };
+		0445159B217BB76400E84F8E /* NotoSansKR-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04451594217BB5FB00E84F8E /* NotoSansKR-Medium.otf */; };
+		0445159C217BB76600E84F8E /* NotoSansKR-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 04451595217BB5FC00E84F8E /* NotoSansKR-Regular.otf */; };
+		04740C0D2143FB97008D49DA /* tabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C0C2143FB97008D49DA /* tabViewController.swift */; };
+		04740C0F2144140C008D49DA /* ContPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C0E2144140C008D49DA /* ContPageViewController.swift */; };
+		04740C112144D7E8008D49DA /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C102144D7E8008D49DA /* mapViewController.swift */; };
+		04740C1321466A7F008D49DA /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C1221466A7F008D49DA /* LibraryCell.swift */; };
+		04740C15214742BD008D49DA /* LibraryHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C14214742BD008D49DA /* LibraryHeader.swift */; };
+		04740C17214852D1008D49DA /* uploadDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C16214852D1008D49DA /* uploadDetailController.swift */; };
+		04740C1921497946008D49DA /* imageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C1821497946008D49DA /* imageController.swift */; };
+		04740C1B214979AE008D49DA /* imageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04740C1A214979AE008D49DA /* imageView.xib */; };
+		04740C1D214A558F008D49DA /* pageST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04740C1C214A558F008D49DA /* pageST.swift */; };
+		0479BB5321C6B1C800F58C89 /* myPageEditController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479BB5221C6B1C800F58C89 /* myPageEditController.swift */; };
+		048749E2217F54BD00C75BC7 /* feedDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 048749E1217F54BD00C75BC7 /* feedDetailView.xib */; };
+		048749E4217F54E200C75BC7 /* feedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048749E3217F54E200C75BC7 /* feedDetailView.swift */; };
+		0487B01321CF626B0033CB01 /* loginClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487B01221CF626B0033CB01 /* loginClass.swift */; };
+		0487B01521D4FD290033CB01 /* ST_MYPAGE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0487B01421D4FD290033CB01 /* ST_MYPAGE.swift */; };
+		049164B321C17B6500C28A4F /* uploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049164B221C17B6500C28A4F /* uploadView.swift */; };
+		049164B521C5572800C28A4F /* editionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049164B421C5572800C28A4F /* editionController.swift */; };
+		049164B721C5592600C28A4F /* editionCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049164B621C5592600C28A4F /* editionCellController.swift */; };
+		04B3787A21C7C29B00039A10 /* editionDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3787921C7C29B00039A10 /* editionDetailController.swift */; };
 		04D777C1213A5AA9005E4DB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */; };
-		04D777C3213A5AA9005E4DB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777C2213A5AA9005E4DB2 /* ViewController.swift */; };
+		04D777C3213A5AA9005E4DB2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777C2213A5AA9005E4DB2 /* LoginView.swift */; };
 		04D777C6213A5AA9005E4DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C4213A5AA9005E4DB2 /* Main.storyboard */; };
 		04D777C8213A5AAB005E4DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C7213A5AAB005E4DB2 /* Assets.xcassets */; };
 		04D777CB213A5AAB005E4DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04D777C9213A5AAB005E4DB2 /* LaunchScreen.storyboard */; };
 		04D777D6213A5AAB005E4DB2 /* picmicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777D5213A5AAB005E4DB2 /* picmicTests.swift */; };
 		04D777E1213A5AAB005E4DB2 /* picmicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777E0213A5AAB005E4DB2 /* picmicUITests.swift */; };
+		04D777F0213A6094005E4DB2 /* appProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D777EF213A6094005E4DB2 /* appProperties.swift */; };
+		04D7782E213A8155005E4DB2 /* testClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7782D213A8155005E4DB2 /* testClass.swift */; };
+		04D77832213ABBCC005E4DB2 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77831213ABBCC005E4DB2 /* signUpView.swift */; };
+		04D77835213ADAA0005E4DB2 /* wwhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77834213ADAA0005E4DB2 /* wwhttp.swift */; };
+		04D933FF21B952DA0006DC25 /* myPageCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D933FE21B952DA0006DC25 /* myPageCellController.swift */; };
+		F07CA7CD78A7B5BADEB7E9E5 /* Pods_picmic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB5F8FD5A010F9A4B0C021 /* Pods_picmic.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +85,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0422A097213B088500A8A1FB /* userST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userST.swift; sourceTree = "<group>"; };
+		0422A099213C059600A8A1FB /* wwurl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwurl.swift; sourceTree = "<group>"; };
+		0422A09B213C796C00A8A1FB /* wwvalidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwvalidation.swift; sourceTree = "<group>"; };
+		0422A09D213C82C400A8A1FB /* wwutil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwutil.swift; sourceTree = "<group>"; };
+		0422A0A1213C86C000A8A1FB /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		0422A0A4213CA4CB00A8A1FB /* pageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageController.swift; sourceTree = "<group>"; };
+		0422A0A6213D69EB00A8A1FB /* photoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photoViewController.swift; sourceTree = "<group>"; };
+		0422A0A8213EAC4300A8A1FB /* wwindicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwindicator.swift; sourceTree = "<group>"; };
+		0422A0AA213EC00B00A8A1FB /* rootController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rootController.swift; sourceTree = "<group>"; };
+		0422A0AC213EDD9200A8A1FB /* FeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeeViewController.swift; sourceTree = "<group>"; };
+		0422A0AE213EDDBE00A8A1FB /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		0422A0B021401FBD00A8A1FB /* sub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sub.swift; sourceTree = "<group>"; };
+		04280852214B307C00A54649 /* feedViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = feedViewController.xib; sourceTree = "<group>"; };
+		04280856214B7E1D00A54649 /* feedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedController.swift; sourceTree = "<group>"; };
+		04280858214BA78C00A54649 /* ApiGatewayMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ApiGatewayMac.framework; sourceTree = "<group>"; };
+		0428085C214BA79E00A54649 /* NMapViewerSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NMapViewerSDK.framework; path = "../../../Downloads/maps.ios-master/Frameworks/NMapViewerSDK.framework"; sourceTree = "<group>"; };
+		04280867214CCA5600A54649 /* feedTableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedTableController.swift; sourceTree = "<group>"; };
+		04296FB52157ABE3002A8CDE /* myPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPage.swift; sourceTree = "<group>"; };
+		0429942321BD378000CC8A32 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		0429942521BD379800CC8A32 /* HistoryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryHeader.swift; sourceTree = "<group>"; };
+		042EFEFF21BD2B0A0015CABE /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		043B75A921B6E47600F14015 /* wwUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwUser.swift; sourceTree = "<group>"; };
+		0445158E217783FB00E84F8E /* CoveredByYourGrace.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CoveredByYourGrace.ttf; sourceTree = "<group>"; };
+		04451592217BB5FB00E84F8E /* NotoSansKR-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Black.otf"; sourceTree = "<group>"; };
+		04451593217BB5FB00E84F8E /* NotoSansKR-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Light.otf"; sourceTree = "<group>"; };
+		04451594217BB5FB00E84F8E /* NotoSansKR-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Medium.otf"; sourceTree = "<group>"; };
+		04451595217BB5FC00E84F8E /* NotoSansKR-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Regular.otf"; sourceTree = "<group>"; };
+		04451596217BB5FC00E84F8E /* NotoSansKR-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Thin.otf"; sourceTree = "<group>"; };
+		04451597217BB5FC00E84F8E /* NotoSansKR-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansKR-Bold.otf"; sourceTree = "<group>"; };
+		04740C0C2143FB97008D49DA /* tabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabViewController.swift; sourceTree = "<group>"; };
+		04740C0E2144140C008D49DA /* ContPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContPageViewController.swift; sourceTree = "<group>"; };
+		04740C102144D7E8008D49DA /* mapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		04740C1221466A7F008D49DA /* LibraryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		04740C14214742BD008D49DA /* LibraryHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryHeader.swift; sourceTree = "<group>"; };
+		04740C16214852D1008D49DA /* uploadDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadDetailController.swift; sourceTree = "<group>"; };
+		04740C1821497946008D49DA /* imageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageController.swift; sourceTree = "<group>"; };
+		04740C1A214979AE008D49DA /* imageView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = imageView.xib; sourceTree = "<group>"; };
+		04740C1C214A558F008D49DA /* pageST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pageST.swift; sourceTree = "<group>"; };
+		0479BB5221C6B1C800F58C89 /* myPageEditController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageEditController.swift; sourceTree = "<group>"; };
+		048749E1217F54BD00C75BC7 /* feedDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = feedDetailView.xib; sourceTree = "<group>"; };
+		048749E3217F54E200C75BC7 /* feedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedDetailView.swift; sourceTree = "<group>"; };
+		0487B01221CF626B0033CB01 /* loginClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginClass.swift; sourceTree = "<group>"; };
+		0487B01421D4FD290033CB01 /* ST_MYPAGE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ST_MYPAGE.swift; sourceTree = "<group>"; };
+		049164B221C17B6500C28A4F /* uploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadView.swift; sourceTree = "<group>"; };
+		049164B421C5572800C28A4F /* editionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editionController.swift; sourceTree = "<group>"; };
+		049164B621C5592600C28A4F /* editionCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editionCellController.swift; sourceTree = "<group>"; };
+		04B3787921C7C29B00039A10 /* editionDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editionDetailController.swift; sourceTree = "<group>"; };
 		04D777BD213A5AA9005E4DB2 /* picmic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = picmic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04D777C2213A5AA9005E4DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04D777C2213A5AA9005E4DB2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		04D777C5213A5AA9005E4DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04D777C7213A5AAB005E4DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04D777CA213A5AAB005E4DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +145,14 @@
 		04D777DC213A5AAB005E4DB2 /* picmicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = picmicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D777E0213A5AAB005E4DB2 /* picmicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = picmicUITests.swift; sourceTree = "<group>"; };
 		04D777E2213A5AAB005E4DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D777EF213A6094005E4DB2 /* appProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = appProperties.swift; sourceTree = "<group>"; };
+		04D7782D213A8155005E4DB2 /* testClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testClass.swift; sourceTree = "<group>"; };
+		04D77831213ABBCC005E4DB2 /* signUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUpView.swift; sourceTree = "<group>"; };
+		04D77834213ADAA0005E4DB2 /* wwhttp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wwhttp.swift; sourceTree = "<group>"; };
+		04D933FE21B952DA0006DC25 /* myPageCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myPageCellController.swift; sourceTree = "<group>"; };
+		8974B362D101E47231556020 /* Pods-picmic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-picmic/Pods-picmic.debug.xcconfig"; sourceTree = "<group>"; };
+		957966A20FB0BDBA52640D4F /* Pods-picmic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmic.release.xcconfig"; path = "Pods/Target Support Files/Pods-picmic/Pods-picmic.release.xcconfig"; sourceTree = "<group>"; };
+		CFDB5F8FD5A010F9A4B0C021 /* Pods_picmic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picmic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F07CA7CD78A7B5BADEB7E9E5 /* Pods_picmic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +181,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0422A0A3213CA49900A8A1FB /* main */ = {
+			isa = PBXGroup;
+			children = (
+				0422A0A4213CA4CB00A8A1FB /* pageController.swift */,
+				0422A0A6213D69EB00A8A1FB /* photoViewController.swift */,
+				0422A0B021401FBD00A8A1FB /* sub.swift */,
+				04740C0C2143FB97008D49DA /* tabViewController.swift */,
+				04740C0E2144140C008D49DA /* ContPageViewController.swift */,
+				04740C102144D7E8008D49DA /* mapViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		04280850214A721600A54649 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				04740C16214852D1008D49DA /* uploadDetailController.swift */,
+				0422A0AE213EDDBE00A8A1FB /* LibraryViewController.swift */,
+				04740C1221466A7F008D49DA /* LibraryCell.swift */,
+				04740C1821497946008D49DA /* imageController.swift */,
+				04740C1A214979AE008D49DA /* imageView.xib */,
+				04740C14214742BD008D49DA /* LibraryHeader.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		04280851214A721F00A54649 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				0422A0AC213EDD9200A8A1FB /* FeeViewController.swift */,
+				04280856214B7E1D00A54649 /* feedController.swift */,
+				04280852214B307C00A54649 /* feedViewController.xib */,
+				04280867214CCA5600A54649 /* feedTableController.swift */,
+				048749E1217F54BD00C75BC7 /* feedDetailView.xib */,
+				048749E3217F54E200C75BC7 /* feedDetailView.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		04296FB42157AB9B002A8CDE /* myPage */ = {
+			isa = PBXGroup;
+			children = (
+				04296FB52157ABE3002A8CDE /* myPage.swift */,
+				04D933FE21B952DA0006DC25 /* myPageCellController.swift */,
+				0479BB5221C6B1C800F58C89 /* myPageEditController.swift */,
+			);
+			name = myPage;
+			sourceTree = "<group>";
+		};
+		0429942721BE705C00CC8A32 /* MyMagazine */ = {
+			isa = PBXGroup;
+			children = (
+				049164B421C5572800C28A4F /* editionController.swift */,
+				049164B621C5592600C28A4F /* editionCellController.swift */,
+				04B3787921C7C29B00039A10 /* editionDetailController.swift */,
+			);
+			name = MyMagazine;
+			sourceTree = "<group>";
+		};
+		042EFEFE21BD2AEB0015CABE /* History */ = {
+			isa = PBXGroup;
+			children = (
+				042EFEFF21BD2B0A0015CABE /* HistoryController.swift */,
+				0429942321BD378000CC8A32 /* HistoryCell.swift */,
+				0429942521BD379800CC8A32 /* HistoryHeader.swift */,
+				049164B221C17B6500C28A4F /* uploadView.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		0445158D217783CE00E84F8E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				04451592217BB5FB00E84F8E /* NotoSansKR-Black.otf */,
+				04451597217BB5FC00E84F8E /* NotoSansKR-Bold.otf */,
+				04451593217BB5FB00E84F8E /* NotoSansKR-Light.otf */,
+				04451594217BB5FB00E84F8E /* NotoSansKR-Medium.otf */,
+				04451595217BB5FC00E84F8E /* NotoSansKR-Regular.otf */,
+				04451596217BB5FC00E84F8E /* NotoSansKR-Thin.otf */,
+				0445158E217783FB00E84F8E /* CoveredByYourGrace.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		04D777B4213A5AA9005E4DB2 = {
 			isa = PBXGroup;
 			children = (
+				04280858214BA78C00A54649 /* ApiGatewayMac.framework */,
 				04D777BF213A5AA9005E4DB2 /* picmic */,
 				04D777D4213A5AAB005E4DB2 /* picmicTests */,
 				04D777DF213A5AAB005E4DB2 /* picmicUITests */,
 				04D777BE213A5AA9005E4DB2 /* Products */,
+				F5CD4B3D465ED714A4981BD3 /* Pods */,
+				D56A64CC4A0E09DEC4F1F132 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +291,16 @@
 		04D777BF213A5AA9005E4DB2 /* picmic */ = {
 			isa = PBXGroup;
 			children = (
+				0445158D217783CE00E84F8E /* fonts */,
+				04D77833213AD689005E4DB2 /* class */,
+				04D7782F213ABAD4005E4DB2 /* Contoller */,
+				04D777EE213A6076005E4DB2 /* Struct */,
 				04D777C0213A5AA9005E4DB2 /* AppDelegate.swift */,
-				04D777C2213A5AA9005E4DB2 /* ViewController.swift */,
 				04D777C4213A5AA9005E4DB2 /* Main.storyboard */,
 				04D777C7213A5AAB005E4DB2 /* Assets.xcassets */,
 				04D777C9213A5AAB005E4DB2 /* LaunchScreen.storyboard */,
 				04D777CC213A5AAB005E4DB2 /* Info.plist */,
+				04D7782D213A8155005E4DB2 /* testClass.swift */,
 			);
 			path = picmic;
 			sourceTree = "<group>";
@@ -125,6 +323,74 @@
 			path = picmicUITests;
 			sourceTree = "<group>";
 		};
+		04D777EE213A6076005E4DB2 /* Struct */ = {
+			isa = PBXGroup;
+			children = (
+				04D777EF213A6094005E4DB2 /* appProperties.swift */,
+				0422A097213B088500A8A1FB /* userST.swift */,
+				0422A099213C059600A8A1FB /* wwurl.swift */,
+				04740C1C214A558F008D49DA /* pageST.swift */,
+				0487B01421D4FD290033CB01 /* ST_MYPAGE.swift */,
+			);
+			name = Struct;
+			sourceTree = "<group>";
+		};
+		04D7782F213ABAD4005E4DB2 /* Contoller */ = {
+			isa = PBXGroup;
+			children = (
+				0429942721BE705C00CC8A32 /* MyMagazine */,
+				042EFEFE21BD2AEB0015CABE /* History */,
+				04296FB42157AB9B002A8CDE /* myPage */,
+				04280851214A721F00A54649 /* Feed */,
+				04280850214A721600A54649 /* Library */,
+				0422A0A3213CA49900A8A1FB /* main */,
+				04D77830213ABB5B005E4DB2 /* login */,
+				0422A0AA213EC00B00A8A1FB /* rootController.swift */,
+			);
+			path = Contoller;
+			sourceTree = "<group>";
+		};
+		04D77830213ABB5B005E4DB2 /* login */ = {
+			isa = PBXGroup;
+			children = (
+				04D777C2213A5AA9005E4DB2 /* LoginView.swift */,
+				04D77831213ABBCC005E4DB2 /* signUpView.swift */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		04D77833213AD689005E4DB2 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				04D77834213ADAA0005E4DB2 /* wwhttp.swift */,
+				0422A09B213C796C00A8A1FB /* wwvalidation.swift */,
+				0422A09D213C82C400A8A1FB /* wwutil.swift */,
+				0422A0A1213C86C000A8A1FB /* BridgingHeader.h */,
+				0422A0A8213EAC4300A8A1FB /* wwindicator.swift */,
+				043B75A921B6E47600F14015 /* wwUser.swift */,
+				0487B01221CF626B0033CB01 /* loginClass.swift */,
+			);
+			name = class;
+			sourceTree = "<group>";
+		};
+		D56A64CC4A0E09DEC4F1F132 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0428085C214BA79E00A54649 /* NMapViewerSDK.framework */,
+				CFDB5F8FD5A010F9A4B0C021 /* Pods_picmic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CD4B3D465ED714A4981BD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8974B362D101E47231556020 /* Pods-picmic.debug.xcconfig */,
+				957966A20FB0BDBA52640D4F /* Pods-picmic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +398,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04D777E5213A5AAB005E4DB2 /* Build configuration list for PBXNativeTarget "picmic" */;
 			buildPhases = (
+				FD86BBA2D05C5AD5383F37BC /* [CP] Check Pods Manifest.lock */,
 				04D777B9213A5AA9005E4DB2 /* Sources */,
 				04D777BA213A5AA9005E4DB2 /* Frameworks */,
 				04D777BB213A5AA9005E4DB2 /* Resources */,
+				1E44F0D07440429D835359C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,13 +461,16 @@
 				TargetAttributes = {
 					04D777BC213A5AA9005E4DB2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 					};
 					04D777D0213A5AAB005E4DB2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 04D777BC213A5AA9005E4DB2;
 					};
 					04D777DB213A5AAB005E4DB2 = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1010;
 						TestTargetID = 04D777BC213A5AA9005E4DB2;
 					};
 				};
@@ -229,8 +500,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0445159C217BB76600E84F8E /* NotoSansKR-Regular.otf in Resources */,
+				0445159A217BB75B00E84F8E /* NotoSansKR-Black.otf in Resources */,
+				04280853214B307C00A54649 /* feedViewController.xib in Resources */,
+				0445159B217BB76400E84F8E /* NotoSansKR-Medium.otf in Resources */,
+				04740C1B214979AE008D49DA /* imageView.xib in Resources */,
+				04451599217BB75900E84F8E /* NotoSansKR-Bold.otf in Resources */,
+				04451598217BB63E00E84F8E /* NotoSansKR-Light.otf in Resources */,
 				04D777CB213A5AAB005E4DB2 /* LaunchScreen.storyboard in Resources */,
 				04D777C8213A5AAB005E4DB2 /* Assets.xcassets in Resources */,
+				048749E2217F54BD00C75BC7 /* feedDetailView.xib in Resources */,
+				0445158F217783FC00E84F8E /* CoveredByYourGrace.ttf in Resources */,
 				04D777C6213A5AA9005E4DB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +519,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044515902177844600E84F8E /* CoveredByYourGrace.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,18 +527,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044515912177844600E84F8E /* CoveredByYourGrace.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E44F0D07440429D835359C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-picmic/Pods-picmic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-picmic/Pods-picmic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD86BBA2D05C5AD5383F37BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-picmic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04D777B9213A5AA9005E4DB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04D777C3213A5AA9005E4DB2 /* ViewController.swift in Sources */,
+				04D77832213ABBCC005E4DB2 /* signUpView.swift in Sources */,
+				049164B321C17B6500C28A4F /* uploadView.swift in Sources */,
+				0422A0A7213D69EB00A8A1FB /* photoViewController.swift in Sources */,
+				0422A0A9213EAC4300A8A1FB /* wwindicator.swift in Sources */,
+				04740C17214852D1008D49DA /* uploadDetailController.swift in Sources */,
+				0422A09E213C82C400A8A1FB /* wwutil.swift in Sources */,
+				04296FB62157ABE3002A8CDE /* myPage.swift in Sources */,
+				04D7782E213A8155005E4DB2 /* testClass.swift in Sources */,
+				0479BB5321C6B1C800F58C89 /* myPageEditController.swift in Sources */,
+				04D777C3213A5AA9005E4DB2 /* LoginView.swift in Sources */,
+				042EFF0021BD2B0A0015CABE /* HistoryController.swift in Sources */,
+				04D777F0213A6094005E4DB2 /* appProperties.swift in Sources */,
+				04740C1D214A558F008D49DA /* pageST.swift in Sources */,
+				049164B721C5592600C28A4F /* editionCellController.swift in Sources */,
+				0422A09A213C059600A8A1FB /* wwurl.swift in Sources */,
+				0422A0AD213EDD9200A8A1FB /* FeeViewController.swift in Sources */,
+				0487B01521D4FD290033CB01 /* ST_MYPAGE.swift in Sources */,
+				0429942621BD379800CC8A32 /* HistoryHeader.swift in Sources */,
 				04D777C1213A5AA9005E4DB2 /* AppDelegate.swift in Sources */,
+				04740C0D2143FB97008D49DA /* tabViewController.swift in Sources */,
+				04280868214CCA5600A54649 /* feedTableController.swift in Sources */,
+				04740C112144D7E8008D49DA /* mapViewController.swift in Sources */,
+				043B75AA21B6E47600F14015 /* wwUser.swift in Sources */,
+				0422A0B121401FBD00A8A1FB /* sub.swift in Sources */,
+				04280857214B7E1D00A54649 /* feedController.swift in Sources */,
+				049164B521C5572800C28A4F /* editionController.swift in Sources */,
+				04B3787A21C7C29B00039A10 /* editionDetailController.swift in Sources */,
+				0487B01321CF626B0033CB01 /* loginClass.swift in Sources */,
+				0422A0AF213EDDBE00A8A1FB /* LibraryViewController.swift in Sources */,
+				0429942421BD378000CC8A32 /* HistoryCell.swift in Sources */,
+				0422A0A5213CA4CB00A8A1FB /* pageController.swift in Sources */,
+				04740C1921497946008D49DA /* imageController.swift in Sources */,
+				04740C1321466A7F008D49DA /* LibraryCell.swift in Sources */,
+				04D933FF21B952DA0006DC25 /* myPageCellController.swift in Sources */,
+				04740C15214742BD008D49DA /* LibraryHeader.swift in Sources */,
+				04740C0F2144140C008D49DA /* ContPageViewController.swift in Sources */,
+				04D77835213ADAA0005E4DB2 /* wwhttp.swift in Sources */,
+				0422A098213B088500A8A1FB /* userST.swift in Sources */,
+				0422A09C213C796C00A8A1FB /* wwvalidation.swift in Sources */,
+				0422A0AB213EC00B00A8A1FB /* rootController.swift in Sources */,
+				048749E4217F54E200C75BC7 /* feedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,36 +792,66 @@
 		};
 		04D777E6213A5AAB005E4DB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8974B362D101E47231556020 /* Pods-picmic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = picmic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/picmic/BridgingHeader.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		04D777E7213A5AAB005E4DB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 957966A20FB0BDBA52640D4F /* Pods-picmic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3XL8Y93LP9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = picmic/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"SwiftyJSON\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "$(SRCROOT)/picmic/BridgingHeader.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -477,7 +871,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picmic.app/picmic";
 			};
@@ -498,7 +892,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/picmic.app/picmic";
 			};
@@ -518,7 +912,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = picmic;
 			};
@@ -538,7 +932,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = wwProject.picmicUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = picmic;
 			};
