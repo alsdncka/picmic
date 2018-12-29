@@ -136,7 +136,7 @@ class myMagazineViewController:UIViewController,UICollectionViewDataSource,UICol
      
         let cell=self.coll.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
             as! myMagazineCell
-        
+        cell.rootController=self
         
         
         cell.data=self.cellData[indexPath.row]

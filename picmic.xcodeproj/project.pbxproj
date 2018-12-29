@@ -64,6 +64,7 @@
 		04D77832213ABBCC005E4DB2 /* signUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77831213ABBCC005E4DB2 /* signUpView.swift */; };
 		04D77835213ADAA0005E4DB2 /* wwhttp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D77834213ADAA0005E4DB2 /* wwhttp.swift */; };
 		04D933FF21B952DA0006DC25 /* myPageCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D933FE21B952DA0006DC25 /* myPageCellController.swift */; };
+		E120788021D76B9900A22533 /* EditFeedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E120787F21D76B9900A22533 /* EditFeedController.swift */; };
 		F07CA7CD78A7B5BADEB7E9E5 /* Pods_picmic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB5F8FD5A010F9A4B0C021 /* Pods_picmic.framework */; };
 /* End PBXBuildFile section */
 
@@ -153,6 +154,7 @@
 		8974B362D101E47231556020 /* Pods-picmic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-picmic/Pods-picmic.debug.xcconfig"; sourceTree = "<group>"; };
 		957966A20FB0BDBA52640D4F /* Pods-picmic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-picmic.release.xcconfig"; path = "Pods/Target Support Files/Pods-picmic/Pods-picmic.release.xcconfig"; sourceTree = "<group>"; };
 		CFDB5F8FD5A010F9A4B0C021 /* Pods_picmic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_picmic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E120787F21D76B9900A22533 /* EditFeedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditFeedController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				04280867214CCA5600A54649 /* feedTableController.swift */,
 				048749E1217F54BD00C75BC7 /* feedDetailView.xib */,
 				048749E3217F54E200C75BC7 /* feedDetailView.swift */,
+				E120787F21D76B9900A22533 /* EditFeedController.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -616,6 +619,7 @@
 				04740C1321466A7F008D49DA /* LibraryCell.swift in Sources */,
 				04D933FF21B952DA0006DC25 /* myPageCellController.swift in Sources */,
 				04740C15214742BD008D49DA /* LibraryHeader.swift in Sources */,
+				E120788021D76B9900A22533 /* EditFeedController.swift in Sources */,
 				04740C0F2144140C008D49DA /* ContPageViewController.swift in Sources */,
 				04D77835213ADAA0005E4DB2 /* wwhttp.swift in Sources */,
 				0422A098213B088500A8A1FB /* userST.swift in Sources */,

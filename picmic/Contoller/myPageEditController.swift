@@ -34,7 +34,7 @@ class myPageEditController:UIViewController{
     
     @IBAction func saveBt(_ sender: Any) {
         print(infoField.text)
-        let param:Parameters=["title_text":titleField.text,"info_text":infoField.text]
+        let param:Parameters=["user_title":titleField.text,"user_info":infoField.text]
         wwHttp.postData(url: wwUrl.updateUser(), param: param){
             json,err in
              self.navigationController?.popToRootViewController(animated: true)
@@ -57,7 +57,7 @@ class myPageEditController:UIViewController{
             do{
                 self.nameLabel.text=json!["user_name"].rawString()
                  self.titleField.text=json!["user_title"].rawString()
-                 self.infoField.text=json!["user_+++++++info"].rawString()
+                 self.infoField.text=json!["user_info"].rawString()
             }
         }
         

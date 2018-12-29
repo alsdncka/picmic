@@ -26,13 +26,22 @@ class tabViewController:UITabBarController,UITabBarControllerDelegate{
     
     
     }
+    
     func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        let class_name=String(describing: viewController.classForCoder)
         
-        if viewController is LibraryViewController{
-            let vc=self.storyboard?.instantiateViewController(withIdentifier: "LibraryView")
-            self.present(vc!, animated: true, completion: nil)
-            return false
+        if ( class_name == "FeedViewController") {
+            let view = viewController as! FeedViewController
+            print(view.viewStatus)
+         
+        }else if ( class_name == "HistroyController"){
+            
+        }else if ( class_name == "editionController"){
+            
+        }else if ( class_name == "myPageViewController"){
+            
         }
+        
         
         return true
     }

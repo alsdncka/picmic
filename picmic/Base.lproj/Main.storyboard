@@ -273,7 +273,8 @@
                                                 <constraint firstItem="7gB-ki-aRk" firstAttribute="top" secondItem="qiq-SV-Py2" secondAttribute="top" id="z2k-Tp-wZj"/>
                                             </constraints>
                                         </view>
-                                        <barButtonItem key="rightBarButtonItem" title="R" id="r5h-A3-jW5">
+                                        <barButtonItem key="rightBarButtonItem" title="정보 수정" id="r5h-A3-jW5">
+                                            <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                                             <connections>
                                                 <segue destination="4hU-XR-l1b" kind="push" id="MBC-J3-9sc"/>
                                             </connections>
@@ -386,6 +387,12 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                             <autoresizingMask key="autoresizingMask"/>
                                                             <subviews>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R1u-Dn-r7c">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                                    <connections>
+                                                                        <action selector="cellBta:" destination="JXp-IK-sSa" eventType="touchUpInside" id="oeh-0X-PBA"/>
+                                                                    </connections>
+                                                                </button>
                                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vLn-bD-OOj">
                                                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                                                 </imageView>
@@ -393,7 +400,11 @@
                                                         </view>
                                                         <constraints>
                                                             <constraint firstAttribute="bottom" secondItem="vLn-bD-OOj" secondAttribute="bottom" id="4FT-lY-WbG"/>
+                                                            <constraint firstItem="R1u-Dn-r7c" firstAttribute="leading" secondItem="JXp-IK-sSa" secondAttribute="leading" id="F6y-n7-Df7"/>
+                                                            <constraint firstItem="R1u-Dn-r7c" firstAttribute="top" secondItem="JXp-IK-sSa" secondAttribute="top" id="aWF-Il-7LY"/>
+                                                            <constraint firstAttribute="bottom" secondItem="R1u-Dn-r7c" secondAttribute="bottom" id="bZp-7y-mj1"/>
                                                             <constraint firstAttribute="trailing" secondItem="vLn-bD-OOj" secondAttribute="trailing" id="gTF-xl-7QI"/>
+                                                            <constraint firstAttribute="trailing" secondItem="R1u-Dn-r7c" secondAttribute="trailing" id="lGD-c1-G2O"/>
                                                             <constraint firstItem="vLn-bD-OOj" firstAttribute="top" secondItem="JXp-IK-sSa" secondAttribute="top" id="n7S-mi-IS4"/>
                                                             <constraint firstItem="vLn-bD-OOj" firstAttribute="leading" secondItem="JXp-IK-sSa" secondAttribute="leading" id="tUT-AM-XKz"/>
                                                         </constraints>
@@ -453,11 +464,13 @@
                         <outlet property="nameLabel" destination="vTn-gK-0NH" id="zdJ-8c-iZC"/>
                         <outlet property="titleLabel" destination="jC2-kz-jxc" id="beq-Pr-ANg"/>
                         <segue destination="hhm-Ut-2aR" kind="push" id="d4j-wm-bsV"/>
+                        <segue destination="bm9-Q3-Wgf" kind="push" id="0bj-OY-ZSD"/>
+                        <segue destination="4M4-yB-KTL" kind="push" id="b24-UT-6ri"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aCZ-JU-Ro1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2625" y="715"/>
+            <point key="canvasLocation" x="2624.8000000000002" y="638.2308845577212"/>
         </scene>
         <!--My Page Edit Controller-->
         <scene sceneID="vFo-Wx-s9v">
@@ -481,6 +494,7 @@
                                     <navigationItem id="gG5-8q-OXj">
                                         <nil key="title"/>
                                         <barButtonItem key="leftBarButtonItem" title="뒤로가기" id="5f8-VA-eNx">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="backBt:" destination="4hU-XR-l1b" id="bCg-Qi-M4b"/>
                                             </connections>
@@ -490,7 +504,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Profile Edit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVP-X5-AZq">
-                                                    <rect key="frame" x="0.0" y="0.0" width="177" height="37"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="198" height="37"/>
                                                     <fontDescription key="fontDescription" name="CoveredByYourGrace" family="Covered By Your Grace" pointSize="40"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -505,6 +519,7 @@
                                             </constraints>
                                         </view>
                                         <barButtonItem key="rightBarButtonItem" title="수정하기" id="QFX-1J-KR8">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <connections>
                                                 <action selector="saveBt:" destination="4hU-XR-l1b" id="cg7-SR-ucV"/>
                                             </connections>
@@ -611,7 +626,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPw-pJ-6go" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3429.5999999999999" y="712.89355322338838"/>
+            <point key="canvasLocation" x="3581.5999999999999" y="501.49925037481262"/>
         </scene>
         <!--S-->
         <scene sceneID="hJ0-P9-hE5">
@@ -762,7 +777,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hNm-Pj-5Re" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1615.2" y="714.69265367316348"/>
+            <point key="canvasLocation" x="1614" y="639"/>
         </scene>
         <!--Upload View Controller-->
         <scene sceneID="ibg-QL-K0L">
@@ -929,6 +944,85 @@
             </objects>
             <point key="canvasLocation" x="2626" y="1462"/>
         </scene>
+        <!--Edit Feed Controller-->
+        <scene sceneID="xdd-01-jvo">
+            <objects>
+                <viewController storyboardIdentifier="EditFeedView" id="4M4-yB-KTL" customClass="EditFeedController" customModule="picmic" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pMH-JQ-f3m"/>
+                        <viewControllerLayoutGuide type="bottom" id="x8D-HR-ErJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gba-YU-VJa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Gj-fJ-CMs">
+                                <rect key="frame" x="0.0" y="292" width="375" height="375"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="8Gj-fJ-CMs" secondAttribute="height" multiplier="1:1" id="sV4-i6-PTS"/>
+                                </constraints>
+                            </view>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NvN-jc-zQ2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4ZI-I8-Iw8"/>
+                                </constraints>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <items>
+                                    <navigationItem id="0bW-DC-fCi">
+                                        <nil key="title"/>
+                                        <barButtonItem key="leftBarButtonItem" title="뒤로가기" id="hag-zM-WOL">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="backBt:" destination="4M4-yB-KTL" id="KYH-Zg-2Ia"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <view key="titleView" contentMode="scaleToFill" id="JYF-LO-vIs">
+                                            <rect key="frame" x="84.5" y="3.5" width="206" height="37"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fave Edit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gx2-aL-vhC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="206" height="37"/>
+                                                    <fontDescription key="fontDescription" name="CoveredByYourGrace" family="Covered By Your Grace" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="gx2-aL-vhC" secondAttribute="bottom" id="1YW-FP-8dE"/>
+                                                <constraint firstItem="gx2-aL-vhC" firstAttribute="top" secondItem="JYF-LO-vIs" secondAttribute="top" id="ZkU-mS-0E4"/>
+                                                <constraint firstItem="gx2-aL-vhC" firstAttribute="leading" secondItem="JYF-LO-vIs" secondAttribute="leading" id="giS-Uo-0DD"/>
+                                                <constraint firstAttribute="trailing" secondItem="gx2-aL-vhC" secondAttribute="trailing" id="lZO-c6-IaH"/>
+                                            </constraints>
+                                        </view>
+                                        <barButtonItem key="rightBarButtonItem" title="수정하기" id="pLf-r1-JfB">
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <connections>
+                                                <action selector="updateBt:" destination="4M4-yB-KTL" id="XTN-kC-2uh"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="8Gj-fJ-CMs" secondAttribute="trailing" id="AIr-Cl-GPh"/>
+                            <constraint firstItem="x8D-HR-ErJ" firstAttribute="top" secondItem="8Gj-fJ-CMs" secondAttribute="bottom" id="KUQ-dT-fFd"/>
+                            <constraint firstItem="8Gj-fJ-CMs" firstAttribute="leading" secondItem="gba-YU-VJa" secondAttribute="leading" id="MzU-fo-twB"/>
+                            <constraint firstItem="NvN-jc-zQ2" firstAttribute="top" secondItem="pMH-JQ-f3m" secondAttribute="bottom" id="UHC-wx-zYe"/>
+                            <constraint firstItem="NvN-jc-zQ2" firstAttribute="leading" secondItem="gba-YU-VJa" secondAttribute="leading" id="a10-df-rvx"/>
+                            <constraint firstAttribute="trailing" secondItem="NvN-jc-zQ2" secondAttribute="trailing" id="fAc-zf-PWp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kdm-ix-dnZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tVY-Oy-afT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3581.5999999999999" y="1185.1574212893554"/>
+        </scene>
         <!--Edition-->
         <scene sceneID="cih-b3-UXr">
             <objects>
@@ -1064,7 +1158,7 @@
             </objects>
             <point key="canvasLocation" x="2624.8000000000002" y="-910.79460269865069"/>
         </scene>
-        <!--F-->
+        <!--Fave-->
         <scene sceneID="cgD-tf-o2d">
             <objects>
                 <viewController id="tQX-Y4-O4W" customClass="FeedViewController" customModule="picmic" customModuleProvider="target" sceneMemberID="viewController">
@@ -1126,7 +1220,7 @@
                         </constraints>
                         <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="0.0" bottom="0.0" trailing="0.0"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="F" id="ifY-NO-Saw"/>
+                    <tabBarItem key="tabBarItem" title="Fave" id="ifY-NO-Saw"/>
                     <connections>
                         <outlet property="srcView" destination="fHc-V1-EFN" id="caa-4c-KkV"/>
                     </connections>
@@ -1204,7 +1298,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ohi-Eq-Lsr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3580" y="-247"/>
+            <point key="canvasLocation" x="3562" y="-220"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="aUG-kv-G8x">
@@ -1289,7 +1383,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRf-Oj-YMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="764" y="568.06596701649175"/>
+            <point key="canvasLocation" x="658" y="503"/>
         </scene>
         <!--Page Controller-->
         <scene sceneID="fWU-oj-R9c">
@@ -1299,7 +1393,7 @@
                 </pageViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6oR-Ub-n3F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-304" y="-244.6776611694153"/>
+            <point key="canvasLocation" x="44" y="-278"/>
         </scene>
         <!--Root Controller-->
         <scene sceneID="Vvo-RK-6wO">
@@ -1558,5 +1652,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="aHt-qf-ing"/>
+        <segue reference="0bj-OY-ZSD"/>
     </inferredMetricsTieBreakers>
 </document>

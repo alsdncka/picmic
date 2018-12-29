@@ -22,6 +22,7 @@ class FeedViewController:UIViewController,CLLocationManagerDelegate,UIScrollView
     var l_do:String?
     var l_dong:String?
     var gpscnt:Int=0;
+    var viewStatus:Bool=false
     
     @IBOutlet weak var srcView: UIScrollView!
     
@@ -31,9 +32,13 @@ class FeedViewController:UIViewController,CLLocationManagerDelegate,UIScrollView
         self.navigationController?.setNavigationBarHidden(true, animated: false)
         
         
+        
     }
     override func viewDidAppear(_ animated: Bool) {
-        
+        viewStatus=true
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        viewStatus=false
     }
     
     override func viewWillLayoutSubviews() {
@@ -134,26 +139,11 @@ class FeedViewController:UIViewController,CLLocationManagerDelegate,UIScrollView
         
     }
    
-    
-    @objc func dialog(sender:UITapGestureRecognizer){
-    
-        var backgroundView=UIView()
-        var dialogView=UIView()
-        backgroundView.frame=CGRect(x: 0, y: 0, width: 100, height: 100)
-        
-        backgroundView.backgroundColor=UIColor.black
-        backgroundView.alpha=0.6
-    
-        srcView.addSubview(backgroundView)
-    
-    
-        dialogView.center=CGPoint(x: srcView.center.x, y: srcView.center.y)
-        dialogView.frame.size=CGSize(width: 100, height: 100)
-    dialogView.backgroundColor=UIColor.white
-    srcView.addSubview(dialogView)
-    
-    
+    func reload(){
+        print("reload call")
     }
+  
+    
  
 }
 

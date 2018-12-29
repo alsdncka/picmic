@@ -15,7 +15,7 @@ class myMagazineCell:UICollectionViewCell{
     
     let stMyPage=ST_MYPAGE()
     let wwHttp=wwhttp()
-    
+    var rootController:UIViewController?
     var data:JSON?{
         didSet{
             loadImage(data: data!)
@@ -32,9 +32,18 @@ class myMagazineCell:UICollectionViewCell{
             self.imageView.image=img
         }
         
-        
-    
-        
     }
     
+    @IBAction func cellBta(_ sender: Any) {
+        let view = rootController?.storyboard?.instantiateViewController(withIdentifier: "EditFeedView") as! EditFeedController
+        
+        view.feedData=data!
+        rootController?.navigationController?.pushViewController(view, animated: true)
+        
+        
+        
+        
+        
+        
+ }
 }
